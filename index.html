@@ -365,7 +365,7 @@
         <span class="sc-tilXH bjgIgv">01</span>
         <div class="sc-bbmXgH izUMNj"><a target="_blank" href="https://snack.expo.dev/@ziyod/ormon-himoya"><span class="sc-tilXH bjgIgv">Ormon Himoyasi</span></a></div></div>
         <div class="sc-jnlKLf eudtEV"><div class="sc-gGBfsJ fKRGVA">
-            <div class="sc-dNLxif kImEUz"><span class="sc-tilXH iiJnOc">iOS and Android app's guide describing flora and fauna.</span></div></div></div>
+            <div class="sc-dNLxif kImEUz"><span class="sc-tilXH iiJnOc">App's for iOS and Android with descriptions of flora and fauna.</span></div></div></div>
             <a target="_blank" href="https://snack.expo.dev/@ziyod/ormon-himoya">
             <div class="mobile-frame">
               <div class="mobile-screen mobile-screen-1" style="background-color: #000;background: url(oh.png) no-repeat center center / cover;">
@@ -382,7 +382,7 @@
           <div class="sc-dNLxif kImEUz"><span class="sc-tilXH iiJnOc">WebSite for Sushi and Pizza Restaurant</span></div></div></div>
           <a target="_blank" href="https://sushihouse.uz/ru/">
           <div class="mobile-frame">
-            <div class="mobile-screen mobile-screen-2" style="background-color: #1b1b1d;background: url(sh.png) no-repeat center center / cover;">
+            <div class="mobile-screen mobile-screen-2" style="background-color: #000;background: url(sh.png) no-repeat center center / cover;">
                 
                       <video id="video2" hidden autoplay loop muted>
                     <source src="sh.mp4" type="video/mp4">
@@ -401,6 +401,21 @@
             
                   <video id="video3" hidden autoplay loop muted>
                 <source src="shb.mp4" type="video/mp4">
+              </video>
+          </div>
+        </div></a>
+</section>
+<section class="sc-hqyNC bhtdzn" style="background: linear-gradient(to top, #001285, #4cb2fb);"><div class="sc-uJMKN gQpeFl">
+    <span class="sc-tilXH bjgIgv">04</span>
+    <div class="sc-bbmXgH izUMNj"><a target="_blank" href=""><span class="sc-tilXH bjgIgv">Kora Karga</span></a></div></div>
+        <div class="sc-jnlKLf eudtEV"><div class="sc-gGBfsJ fKRGVA">
+        <div class="sc-dNLxif kImEUz"><span class="sc-tilXH iiJnOc">App's for iOS and Android that analyze plant diseases from an image using AI.</span></div></div></div>
+        <a target="_blank" href="https://t.me/SushiHouseUzBot">
+        <div class="mobile-frame">
+          <div class="mobile-screen mobile-screen-4" style="background-color: #000;background: url(kk.jpg) no-repeat center center / cover;">
+            
+                  <video id="video4" hidden autoplay loop muted>
+                <source src="kk.mp4" type="video/mp4">
               </video>
           </div>
         </div></a>
@@ -460,10 +475,12 @@
         var video1 = document.getElementById("video1");
         var video2 = document.getElementById("video2");
         var video3 = document.getElementById("video3");
+        var video4 = document.getElementById("video4");
         // Get the parent elements by class name
         var mobileScreen1 = document.getElementsByClassName("mobile-screen-1")[0];
         var mobileScreen2 = document.getElementsByClassName("mobile-screen-2")[0];
         var mobileScreen3 = document.getElementsByClassName("mobile-screen-3")[0];
+        var mobileScreen4 = document.getElementsByClassName("mobile-screen-4")[0];
         // Add event listeners for when the videos can play through
         video1.addEventListener("canplaythrough", function() {
           // Change the background of the parent element to none
@@ -482,6 +499,12 @@
           mobileScreen3.style.background = "none";
           // Show the video element
           video3.hidden = false;
+        });
+        video4.addEventListener("canplaythrough", function() {
+          // Change the background of the parent element to none
+          mobileScreen4.style.background = "none";
+          // Show the video element
+          video4.hidden = false;
         });
       </script>
       
